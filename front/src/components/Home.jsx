@@ -7,7 +7,7 @@ const Home = () => {
   const arr = ['https://github.com/Anto-peppin','https://www.instagram.com/peppin_1969/','www.linkedin.com/in/peppin03','antopeppin22@gmail.com']
   return (
     // ✅ Make sure no horizontal scroll can happen
-    <div className="w-full h-full overflow-hidden relative " id="home">
+    <div className="w-full h-full min-h-screen overflow-hidden relative " id="home">
       <Vortex
         backgroundColor="black"
         rangeY={800}
@@ -71,9 +71,9 @@ const Home = () => {
 
 
 <div className="hidden relative md:flex md:w-[38%] h-full justify-start items-center rounded-full">
-    <img src='./crack.gif' className='absolute -top-5 -left-5  w-[100px] h-[100px] '  />
-    <img src='./crack.gif' className='absolute -top-5 right-5 w-[100px] h-[100px]  '  />
   <div className=" relative p-2  overflow-hidden rounded-full mask mask-decagon">
+    <img src='./crack.gif' className='absolute -top-5 -left-5  w-[100px] h-[100px] '  />
+    <img src='./crack.gif' className='absolute -top-5 -right-5 w-[100px] h-[100px]  '  />
     
 
     {/* ROTATING WRAPPER */}
