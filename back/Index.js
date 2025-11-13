@@ -22,6 +22,9 @@ app.get('/projects',async(req,res)=>{
   }
 
 })
+app.get('/',(req,res)=>{
+res.send('hiiiii heloooo')
+})
 
 app.post('/user',async(req,res)=>{
 
