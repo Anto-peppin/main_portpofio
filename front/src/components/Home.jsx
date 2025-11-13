@@ -14,16 +14,16 @@ const Home = () => {
         particleCount={500}
         baseHue={120}
         // ✅ remove border and use relative layout safely
-        className="flex md:flex-row gap-4 py-5 sm:py-20 px-4 md:px-10 w-full min-h-full  items-center justify-between"
+        className="flex md:flex-row gap-4  sm:py-20 px-4 md:px-10 w-full min-h-screen h-full  items-center justify-between"
       >
         {/* Left Section */}
-        <div className="w-full md:w-[60%] flex justify-center items-center h-full ">
+        <div className="w-full py-6 sm:py-none md:w-[60%] flex justify-center items-center h-full backdrop-blur-lg sm:backdrop-blur-none">
           <div className="w-[95%] md:w-full lg:w-[80%] p-3 flex gap-3 flex-col items-start ">
             <div className="text-[12px] sm:text-md font-bold text-white bg-blue-400/20 rounded px-4 py-1 inline">
               ANTO PEPPIN
             </div>
 
-            <h2 className="text-white font-bold text-3xl sm:text-5xl">
+            <h2 className="text-white font-bold text-4xl sm:text-5xl">
               HAY! I'M PEPPIN
             </h2>
 
@@ -31,7 +31,7 @@ const Home = () => {
               <h2>I'M a </h2> <TypeWritter />
             </div>
 
-            <p className="text-[12px] sm:text-[13px] text-white/80 w-full sm:w-[90%] text-justify">
+            <p className="text-[14px] sm:text-[16px] text-white/80 w-full sm:w-[90%] text-justify">
               <span className="font-bold text-[14px]">I</span>'m a passionate
               and detail-oriented Fullstack developer, focused on building
               responsive, user-friendly web interfaces. I specialize in HTML,
@@ -50,7 +50,7 @@ const Home = () => {
   </div>
                    <a href={icon == 'mail' ?`mailto:${arr[ind]}`:arr[ind]} className="w-fit h-fit " target="_blank">
                       <img
-                        className="rounded-[20px_0_20px_20px] cursor-pointer relative p-1 border-white border w-10 h-10 "
+                        className="rounded-[20px_0_20px_20px] cursor-pointer relative p-1 border-white border-2 w-10 h-10 "
                         src={`./${icon}.gif`}
                         alt={icon}
                       />
@@ -86,7 +86,7 @@ const Home = () => {
 
     {/* CENTER IMAGE */}
    
-      <img src="./my1.png" className="border mask mask-decagon w-[320px] h-[320px] relative bg-black border-white rounded-full" alt=""/>
+      <img src="./my1.png" className="border mask mask-decagon w-[322px] h-[322px] relative bg-black border-white rounded-full" alt=""/>
     
 
   </div>

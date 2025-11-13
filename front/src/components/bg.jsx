@@ -169,13 +169,13 @@ export const Vortex = (props) => {
 
   const renderGlow = (canvas, ctx) => {
     ctx.save();
-    ctx.filter = "blur(4px) brightness(200%)";
+    ctx.filter = "blur(4px) brightness(100%)";
     ctx.globalCompositeOperation = "lighter";
     ctx.drawImage(canvas, 0, 0);
     ctx.restore();
 
     ctx.save();
-    ctx.filter = "blur(2px) brightness(200%)";
+    ctx.filter = "blur(2px) brightness(100%)";
     ctx.globalCompositeOperation = "lighter";
     ctx.drawImage(canvas, 0, 0);
     ctx.restore();

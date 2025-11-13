@@ -116,13 +116,22 @@ const playRef = useRef(null)
       </Swiper>
 
 <span
-  className={`custom-pagination absolute -right-4 top-1/2 -translate-y-1/2 flex flex-col gap-2 z-20 transition-opacity duration-300 cursor-pointer ${
+  className={`custom-pagination  flex flex-col gap-2 z-20 transition-opacity duration-300 cursor-pointer ${
     playState ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
   }`}
 ></span>
 
 
+<style jsx='true'>{`
+.custom-pagination {
 
+left:101% !important;
+top:50% !important;
+transform:translateY(-50%) !important ;
+position:absolute !important ;
+
+}
+`}</style>
 
 
       <style jsx="true">{`
@@ -131,7 +140,7 @@ const playRef = useRef(null)
           opacity: 1 !important;
           transform: scale(1);
           border-radius: 10px;
-          border: 1px dotted white;
+          border: 1.5px solid white;
         }
         .swiper-pagination-bullet-active {
           background-color: #000 !important;

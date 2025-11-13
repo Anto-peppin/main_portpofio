@@ -3,7 +3,7 @@ import { SparklesText } from "./sparkless";
 import { HiMenuAlt3 } from "react-icons/hi";
 const Nav = () => {
   return (
-    <div className="w-full p-2 sticky top-0 shadow-sm shadow-white z-9999 bg-black">
+    <div className="w-full p-3 sticky top-0 shadow-sm shadow-white z-9999 bg-black">
       <div className="w-[90%] mx-auto rounded-4xl text-white flex items-cnter justify-between border-2 px-2 py-1">
         <ul className="flex justify-between items-center px-3 w-full gap-2 sm:justify-around">
           <li className=" gap-2 items-center sm:gap-8 hidden sm:flex">
@@ -49,7 +49,7 @@ const Nav = () => {
                 aria-label="close sidebar"
                 className="drawer-overlay"
               ></label>
-              <ul className="menu bg-black min-h-full w-fit pt-10 p-6">
+              <ul className="menu bg-black min-h-full flex flex-col items-center gap-4 justify-center  w-fit pt-10 p-6">
                 {/* Sidebar content here */}
                 <a href="#home">
                   <li className="p-2 px-3 font-bold text-xl cursor-pointer text-transparent bg-linear-[to_top,blue,white] bg-clip-text ">

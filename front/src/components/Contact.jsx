@@ -74,14 +74,15 @@ console.log(error.message);
     <div className="w-full h-full  relative overflow-hidden" id="contact">
       <Vortex
         backgroundColor="black"
-        rangeY={1800}
+        rangeY={800}
         particleCount={500}
         baseHue={120}
-        className="px-4 md:px-10 w-full py-5 min-h-full relative  flex flex-col gap-3 border-t-3 border-dashed"
+        className="px-4 md:px-10 w-full py-5 min-h-screen h-full relative border-t-3 border-dashed"
       >
-        <h2 className="flex flex-col gap-1 items-center font-bold text-3xl sm:text-4xl  bg-linear-to-t from-purple-500 to-blue-400 bg-clip-text text-transparent  ">
+        <div className="w-full min-h-screen h-full flex flex-col gap-3 items-center">
+          <h2 className="flex flex-col gap-1 items-center font-bold text-5xl sm:text-6xl  bg-linear-to-t from-purple-500 to-blue-400 bg-clip-text text-transparent  ">
           Contact{" "}
-          <span className="text-xl font-medium text-white text-center">
+          <span className="text-2xl font-medium text-white text-center">
             Your vision, My code - lets connect the dots
           </span>
         </h2>
@@ -106,11 +107,11 @@ console.log(error.message);
             <input
               {...register("name")}
               type="text"
-              className={`input w-full outline-0 border ${errors?.name ? 'border-red-500  mb-1':'border-white  mb-3'}  text-bold text-lg bg-transparent backdrop-blur-2xl text-white `}
+              className={`input w-full outline-0 border ${errors?.name ? 'border-red-500  mb-1':'border-white  mb-4'}  text-bold text-lg bg-transparent backdrop-blur-2xl text-white `}
               placeholder="Type Your Name..."
             />
             {errors?.name && (
-              <p className="text-red-500 text-sm  mb-3">*{errors.name.message}</p>
+              <p className="text-red-500 text-sm  mb-4">*{errors.name.message}</p>
             )}
 
             <label className="label text-white font-medium text-2xl mb-1">
@@ -120,11 +121,11 @@ console.log(error.message);
             <input
               {...register("city")}
               type="text"
-              className={`input w-full outline-0 border ${errors?.city ? 'border-red-500  mb-1':'border-white  mb-3'} text-bold text-lg bg-transparent backdrop-blur-2xl text-white`}
+              className={`input w-full outline-0 border ${errors?.city ? 'border-red-500  mb-1':'border-white  mb-4'} text-bold text-lg bg-transparent backdrop-blur-2xl text-white`}
               placeholder="Enter your compony or city"
             />
   {errors?.city && (
-              <p className="text-red-500 text-sm mb-3">*{errors.city.message}</p>
+              <p className="text-red-500 text-sm mb-4">*{errors.city.message}</p>
             )}
             <label className="label text-white font-medium text-2xl mb-1">
               You can reach me at :
@@ -132,11 +133,11 @@ console.log(error.message);
             <input
               {...register("mail")}
               type="text"
-              className={`input w-full outline-0 border ${errors?.mail ? 'border-red-500  mb-1':'border-white  mb-3'} text-bold text-lg bg-transparent backdrop-blur-2xl text-white`}
+              className={`input w-full outline-0 border ${errors?.mail ? 'border-red-500  mb-1':'border-white  mb-4'} text-bold text-lg bg-transparent backdrop-blur-2xl text-white`}
               placeholder="Please fill with your Email"
             />
   {errors?.mail && (
-              <p className="text-red-500 text-sm mb-3">*{errors.mail.message}</p>
+              <p className="text-red-500 text-sm mb-4">*{errors.mail.message}</p>
             )}
             <label className="label text-white font-medium text-2xl mb-1">
               I'd love to talk about
@@ -156,6 +157,7 @@ console.log(error.message);
             </button>
           </form>
         </fieldset>
+        </div>
       </Vortex>
     </div>
   );
