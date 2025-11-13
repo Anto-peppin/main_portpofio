@@ -20,7 +20,7 @@ const Skills = () => {
             rangeY={800}
             particleCount={500}
             baseHue={120}
-            className="px-4 md:px-10 w-full py-5 min-h-full relative  flex flex-col gap-3 border-t-3 border-dashed"
+            className="px-4 md:px-10 w-full py-5 min-h-[calc(100vh - 100px )]  max-h-[700px] relative  flex flex-col gap-3 border-t-3 border-dashed"
           >
               <h2 className="flex flex-col gap-1 items-center font-bold text-5xl sm:text-5xl  bg-linear-to-t from-purple-500 to-blue-400  p-1 bg-clip-text text-transparent ">
         Skills<span className="text-2xl font-medium text-white  text-center">Fuel Behind My Project</span>

@@ -6,15 +6,15 @@ import { BiDownload } from "react-icons/bi";
 const Home = () => {
   const arr = ['https://github.com/Anto-peppin','https://www.instagram.com/peppin_1969/','www.linkedin.com/in/peppin03','antopeppin22@gmail.com']
   return (
-    // ✅ Make sure no horizontal scroll can happen
+
     <div className="w-full h-full overflow-hidden relative " id="home">
       <Vortex
         backgroundColor="black"
         rangeY={800}
         particleCount={500}
         baseHue={120}
-        // ✅ remove border and use relative layout safely
-        className="flex md:flex-row gap-4  sm:py-20 px-4 md:px-10 w-full min-h-screen h-full  items-center justify-between"
+
+        className="flex md:flex-row gap-4  sm:py-20 px-4 md:px-10 w-full min-h-[calc(100vh - 100px )] max-h-[700px] h-full  items-center justify-between"
       >
         {/* Left Section */}
         <div className="w-full py-6 sm:py-none md:w-[60%] flex justify-center items-center h-full backdrop-blur-lg sm:backdrop-blur-none">

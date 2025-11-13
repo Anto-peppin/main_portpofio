@@ -77,9 +77,9 @@ console.log(error.message);
         rangeY={800}
         particleCount={500}
         baseHue={120}
-        className="px-4 md:px-10 w-full py-5 min-h-screen h-full relative border-t-3 border-dashed"
+        className="px-4 md:px-10 w-full py-5 min-h-[calc(100vh - 100px )]  max-h-[700px] h-full relative border-t-3 border-dashed flex justify-center items-center"
       >
-        <div className="w-full min-h-screen h-full flex flex-col gap-3 items-center">
+        <div className="w-full min-h-[calc(100vh - 100px )]  max-h-[700px] h-full flex flex-col gap-3 items-center">
           <h2 className="flex flex-col gap-1 items-center font-bold text-5xl sm:text-6xl  bg-linear-to-t from-purple-500 to-blue-400 bg-clip-text text-transparent  ">
           Contact{" "}
           <span className="text-2xl font-medium text-white text-center">

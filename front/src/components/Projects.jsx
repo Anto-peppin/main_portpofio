@@ -23,19 +23,19 @@ const Projects = () => {
   return (
     <div className="w-full min-h-fit overflow-hidden relative" id="project">
       <Vortex
-        className="w-full min-h-screen py-5 h-full flex gap-3 flex-col border-t-3 border-dashed"
+        className="w-full min-h-[calc(100vh - 100px )]  max-h-[700px] py-5 h-full flex gap-3 flex-col border-t-3 border-dashed"
         backgroundColor="black"
         rangeY={800}
         particleCount={500}
         baseHue={120}
       >
-      <div className='w-full min-h-screen h-full flex flex-col gap-5 justify-center items-center'>
+      <div className='w-full min-h-[calc(100vh - 100px )]  max-h-[700px] h-full flex flex-col gap-5 justify-center items-center'>
           <h2 className=" flex flex-col items-center gap-1 font-bold text-5xl sm:text-6xl bg-linear-to-t from-purple-500 to-blue-400  bg-clip-text text-transparent">
           PROJECTS <span className="font-medium text-white text-2xl text-center">A Showcase of shipped thoughts and sleepless nights</span>
         </h2>
 
         <div className="w-full h-full flex justify-center px-5 py-2">
-          <div className="w-[95%] sm:w-[90%] relative rounded-xl ">
+          <div className="w-[95%] sm:w-[90%] relative -left-5 rounded-xl ">
             <Slider1 data={project} />
           </div>
         </div>
