@@ -72,7 +72,7 @@ const Home = () => {
 
 <div className="hidden relative md:flex md:w-[38%] h-full justify-start items-center rounded-full">
     <img src='./crack.gif' className='absolute -top-5 -left-5  w-[100px] h-[100px] '  />
-    <img src='./crack.gif' className='absolute -top-5 right-[10%] w-[100px] h-[100px]  '  />
+    {/* <img src='./crack.gif' className='absolute -top-5 right-[10%] w-[100px] h-[100px]  '  /> */}
   <div className=" relative p-2  overflow-hidden rounded-full mask mask-decagon">
     
 
@@ -86,7 +86,7 @@ const Home = () => {
 
     {/* CENTER IMAGE */}
    
-      <img src="./my1.png" className="border mask mask-decagon w-[300px] h-[300px] relative bg-black border-white rounded-full" alt=""/>
+      <img src="./my1.png" className="border mask mask-decagon w-[320px] h-[320px] relative bg-black border-white rounded-full" alt=""/>
     
 
   </div>
