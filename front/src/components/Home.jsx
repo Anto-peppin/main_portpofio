@@ -14,7 +14,7 @@ const Home = () => {
         particleCount={500}
         baseHue={120}
 
-        className="flex md:flex-row gap-4 py-5 sm:py-20 px-4 md:px-10 w-full min-h-[calc(100vh - 100px )] h-full  items-center justify-between"
+        className="flex md:flex-row gap-4 py-5 sm:py-20 px-4 md:px-10 w-full min-h-[93vh] h-full  items-center justify-between"
       >
         {/* Left Section */}
         <div className="w-full py-6 sm:py-none md:w-[60%] flex justify-center items-center h-full backdrop-blur-lg sm:backdrop-blur-none">
