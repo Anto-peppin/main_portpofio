@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg) ;
+    filter :blur(2px)
+    
+  }
+  45%{
+        filter: blur(20px);
+  }
+  100% {
+    transform: rotate(360deg);
+        filter :blur(1px)
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 4s linear infinite;
+}
