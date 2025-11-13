@@ -8,15 +8,15 @@ const Nav = () => {
         <ul className="flex justify-between items-center px-3 w-full gap-2 sm:justify-around">
           <li className=" gap-2 items-center sm:gap-8 hidden sm:flex">
             <a href="#home">
-              <span className="cursor-pointer">Home</span>
+              <span className="cursor-pointer text-xl">Home</span>
             </a>
             <a href="#project">
-              <span className="cursor-pointer">Projects</span>
+              <span className="cursor-pointer text-xl">Projects</span>
             </a>
           </li>
 
           <li className="flex items-end gap-1">
-            <SparklesText className="text-xl whitespace-nowrap  ">
+            <SparklesText className="text-2xl whitespace-nowrap  ">
               PORTFOLIO
             </SparklesText>
           </li>
@@ -24,10 +24,10 @@ const Nav = () => {
           <li className=" gap-1 items-center sm:gap-8 hidden sm:flex">
             <a href="#skill">
               {" "}
-              <span className="cursor-pointer">Skills</span>
+              <span className="cursor-pointer text-lg">Skills</span>
             </a>
             <a href="#contact">
-              <span className="cursor-pointer">Contact</span>
+              <span className="cursor-pointer text-lg">Contact</span>
             </a>
           </li>
 

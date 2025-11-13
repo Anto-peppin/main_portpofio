@@ -7,7 +7,7 @@ function TypeWritter() {
       <h1 className="ml-1">
         <Typewriter
           options={{
-            strings: ["Full stack developer", "React is Fun!"],
+            strings: ["Full stack developer", "MERN stack developer","Debugger","Good Learner","Duter"],
             autoStart: true,
             loop: true,
             delay: 75, // typing speed

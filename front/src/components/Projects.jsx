@@ -23,7 +23,7 @@ const Projects = () => {
   return (
     <div className="w-full min-h-fit overflow-hidden relative" id="project">
       <Vortex
-        className="w-full min-h-full py-3 flex gap-1 flex-col border-t-3 border-dashed"
+        className="w-full min-h-full py-5 flex gap-3 flex-col border-t-3 border-dashed"
         backgroundColor="black"
         rangeY={800}
         particleCount={500}
