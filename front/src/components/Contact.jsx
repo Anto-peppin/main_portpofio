@@ -80,7 +80,7 @@ console.log(error.message);
         className="px-4 md:px-10 w-full py-5 min-h-[calc(100vh - 100px )]  h-full relative border-t-3 border-dashed flex justify-center items-center"
       >
         <div className="w-full min-h-[calc(100vh - 100px )]  h-full flex flex-col gap-3 items-center">
-          <h2 className="flex flex-col gap-1 items-center font-bold text-5xl sm:text-6xl  bg-linear-to-t from-purple-500 to-blue-400 bg-clip-text text-transparent  ">
+          <h2 className="flex flex-col gap-1 items-center font-bold text-5xl sm:text-8xl  bg-linear-to-t from-purple-500 to-blue-400 bg-clip-text text-transparent  ">
           Contact{" "}
           <span className="text-2xl font-medium text-white text-center">
             Your vision, My code - lets connect the dots

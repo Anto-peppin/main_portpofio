@@ -14,7 +14,7 @@ const Home = () => {
         particleCount={500}
         baseHue={120}
 
-        className="flex md:flex-row gap-4  sm:py-20 px-4 md:px-10 w-full min-h-[calc(100vh - 100px )] h-full  items-center justify-between"
+        className="flex md:flex-row gap-4 py-5 sm:py-20 px-4 md:px-10 w-full min-h-[calc(100vh - 100px )] h-full  items-center justify-between"
       >
         {/* Left Section */}
         <div className="w-full py-6 sm:py-none md:w-[60%] flex justify-center items-center h-full backdrop-blur-lg sm:backdrop-blur-none">
@@ -50,7 +50,7 @@ const Home = () => {
   </div>
                    <a href={icon == 'mail' ?`mailto:${arr[ind]}`:arr[ind]} className="w-fit h-fit " target="_blank">
                       <img
-                        className="rounded-[20px_0_20px_20px] cursor-pointer relative p-1 border-white border-2 w-10 h-10 "
+                        className="rounded-[20px_0_20px_20px] cursor-pointer relative p-1 border-white border-2 w-13 h-13 "
                         src={`./${icon}.gif`}
                         alt={icon}
                       />
