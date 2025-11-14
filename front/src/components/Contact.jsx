@@ -80,17 +80,18 @@ console.log(error.message);
         className="px-4 md:px-10 w-full py-5 min-h-[93vh]  h-full relative border-t-3 border-dashed flex justify-center items-center"
       >
         <div className="w-full min-h-[93vh]  h-full flex flex-col gap-3 items-center">
-          <h2 className="flex flex-col gap-1 items-center font-bold text-5xl sm:text-8xl  bg-linear-to-t from-purple-500 to-blue-400 bg-clip-text text-transparent  ">
+          <h2 className="flex flex-col gap-1 items-center font-bold text-5xl sm:text-6xl  bg-linear-to-t from-purple-500 to-blue-400 bg-clip-text text-transparent  ">
           Contact{" "}
           <span className="text-2xl font-medium text-white text-center">
             Your vision, My code - lets connect the dots
           </span>
         </h2>
 
-        <fieldset className="fieldset self-center relative border-base-300  rounded-box  border p-4 shadow-[inset_2px_2px_3px_black,inset_-2px_-2px_3px_white] w-[95%] sm:w-[83%] md:w-[67%] lg:w-[57%]">
+
+         <fieldset className="fieldset relative self-center  border-base-300 rounded-box p-4 border shadow-[inset_2px_2px_3px_black,inset_-2px_-2px_3px_white] w-[95%] sm:w-[83%] md:w-[67%] lg:w-[57%]">
            <img
             src="./bean1.png"
-            className="absolute h-full -left-[76px] drop-shadow-[0_0_1px_white] hidden md:inline-block"
+            className="absolute h-full -translate-x-full drop-shadow-[0_0_1px_white] hidden md:inline-block"
             alt=""
           />
           <legend className="fieldset-legend text-white font-bold text-3xl sm:text-[4xl] md:text-[5xl] lg:text-[6xl] ">
@@ -99,8 +100,8 @@ console.log(error.message);
           </legend>
 
          
-          <form onSubmit={handleSubmit(formSubmit)}>
-            <label className="label text-white font-medium text-2xl mb-1">
+          <form onSubmit={handleSubmit(formSubmit)} >
+            <label className="label text-white font-medium text-2xl mb-1 ">
               My name is :{" "}
             </label>
 
@@ -157,7 +158,8 @@ console.log(error.message);
             </button>
           </form>
         </fieldset>
-        </div>
+     </div>
+    
       </Vortex>
     </div>
   );

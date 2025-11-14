@@ -14,7 +14,7 @@ const Home = () => {
         particleCount={500}
         baseHue={120}
 
-        className="flex md:flex-row gap-4 py-5 sm:py-20 px-4 md:px-10 w-full min-h-[93vh] h-full  items-center justify-between"
+        className="flex md:flex-row gap-4 py-5 md:py-3 sm:py-20 px-4 md:px-10 w-full min-h-[93vh] h-full  items-center justify-between"
       >
         {/* Left Section */}
         <div className="w-full py-6 sm:py-none md:w-[60%] flex justify-center items-center h-full backdrop-blur-lg sm:backdrop-blur-none">
@@ -31,14 +31,9 @@ const Home = () => {
               <h2>I'M a </h2> <TypeWritter />
             </div>
 
-            <p className="text-[14px] sm:text-[16px] text-white/80 w-full sm:w-[90%] text-justify">
-              <span className="font-bold text-[14px]">I</span>'m a passionate
-              and detail-oriented Fullstack developer, focused on building
-              responsive, user-friendly web interfaces. I specialize in HTML,
-              CSS, JavaScript, React, Node.js, Express, and MongoDB. I'm always
-              eager to learn and explore new technologies. As a fresher, I bring
-              enthusiasm, adaptability, and a strong foundation in modern web
-              development practices.
+            <p className="text-[14px] sm:text-[15px] text-white/80 w-full sm:w-[95%] text-justify">
+              <span className="font-bold text-[14px]">I</span>
+           'm a passionate MERN Stack Developer with a strong foundation in MongoDB, Express.js, React.js, and Node.js. I enjoy building responsive and user-friendly web applications, integrating front-end and back-end logic smoothly. I have good hands-on experience with JavaScript, HTML, CSS, and Tailwind CSS, along with knowledge of RESTful APIs and deployment on platforms like Netlify and Vercel. I have successfully completed a certified MERN Stack course from Error Makes Clever (EMC).
             </p>
 
             {/* Social Icons */}
@@ -61,9 +56,9 @@ const Home = () => {
             </div>
 
             {/* Button */}
-            <button className="mt-3  font-bold text-sm px-4 py-2 bg-linear-to-r from-blue-600 to-violet-600 text-white rounded shadow-md cursor-pointer flex items-center gap-2">
+            <a href='./Anto-resume.pdf' download='Anto-resume' className="mt-3  font-bold text-sm px-4 py-2 bg-linear-to-r from-blue-600 to-violet-600 text-white rounded shadow-md cursor-pointer flex items-center gap-2">
               Download CV <BiDownload />
-            </button>
+            </a>
           </div>
         </div>
 
@@ -73,23 +68,23 @@ const Home = () => {
 <div className="hidden relative md:flex md:w-[38%] h-full justify-start items-center rounded-full">
     <img src='./crack.gif' className='absolute -top-5 -left-5  w-[100px] h-[100px] '  />
     {/* <img src='./crack.gif' className='absolute -top-5 right-[10%] w-[100px] h-[100px]  '  /> */}
-  <div className=" relative p-2  overflow-hidden rounded-full mask mask-decagon">
+  {/* <div className=" relative p-2  overflow-hidden rounded-full mask mask-decagon "> */}
     
 
     {/* ROTATING WRAPPER */}
-    <div className="absolute inset-0 flex justify-center items-center animate-spin-slow blur-4xl">
+    {/* <div className="absolute inset-0 flex justify-center items-center animate-spin-slow blur-4xl">
       <div className="absolute w-[50px] h-[153%] bg-green-500"></div>
       <div className="absolute w-[50px] h-[153%] bg-red-500 rotate-45"></div>
       <div className="absolute w-[50px] h-[153%] bg-yellow-500 rotate-90"></div>
       <div className="absolute w-[50px] h-[153%] bg-blue-500 -rotate-45"></div>
-    </div>
+    </div> */}
 
     {/* CENTER IMAGE */}
    
-      <img src="./my1.png" className="border mask mask-decagon w-[322px] h-[322px] relative bg-black border-white rounded-full" alt=""/>
+      <img src="./my1.png" className=" mask drop-shadow-[0_0_3px_white] hover:drop-shadow-[0px_0px_6px_white] mask-decagon w-[322px] h-[322px] relative " alt=""/>
     
 
-  </div>
+  {/* </div> */}
 </div>
 
 

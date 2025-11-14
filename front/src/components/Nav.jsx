@@ -3,7 +3,7 @@ import { SparklesText } from "./sparkless";
 import { HiMenuAlt3 } from "react-icons/hi";
 const Nav = () => {
   return (
-    <div className="w-full p-3 sticky top-0 shadow-sm shadow-white z-9999 bg-black">
+    <div className="w-full p-3 sticky top-0 shadow-sm shadow-white z-9999 bg-black ">
       <div className="w-[90%] mx-auto rounded-4xl text-white flex items-cnter justify-between border-2 px-2 py-1">
         <ul className="flex justify-between items-center px-3 w-full gap-2 sm:justify-around">
           <li className=" gap-2 items-center sm:gap-8 hidden sm:flex">

@@ -7,7 +7,7 @@ import Contact from './components/Contact'
 
 const App = () => {
   return (
-    <div className='scroll-smooth'>
+    <div>
       <Nav/>
       <Home/>
       <Projects/>
